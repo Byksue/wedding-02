@@ -105,6 +105,9 @@ body {
     margin-top: 7em;
     background-color: #E5E1CF;
   }
+  .section-footer {
+    margin-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -189,6 +192,9 @@ body {
   .section-gallery .item:hover {
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
+  }
+  .section-footer {
+    margin-bottom: 100px;
   }
 }
 /*# sourceMappingURL=main.css.map */
