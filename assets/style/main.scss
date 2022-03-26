@@ -29,6 +29,25 @@ body{
   }
 
 @media screen and (max-width: 767px) {
+    .navbar-kecil{
+        position: fixed;
+        z-index: 3;
+        align-items: center;
+        width: 26em;
+        height: 5em;
+        bottom: 0px;
+        // right: 36%;
+
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 black;
+
+        background-color: #F0EFEB;
+
+        .isi-nav{
+            padding: 10px 30px;
+        }
+    }
+
     .section-open{
         background: url("../image/bg-header 2.png") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -116,6 +135,25 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
+    .navbar-kecil{
+        position: fixed;
+        z-index: 3;
+        align-items: center;
+        width: 26em;
+        height: 5em;
+        bottom: 0px;
+        // right: 36%;
+
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 black;
+
+        background-color: #F0EFEB;
+
+        .isi-nav{
+            padding: 10px 30px;
+        }
+    }
+
     .section-open{
         background-image: url('../image/bg-header 2.png');
         background-size: cover;
