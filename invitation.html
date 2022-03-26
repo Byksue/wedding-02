@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Design 01 - CSS Production</title>
   </head>
   <body>
@@ -36,8 +39,8 @@
         <h1 class="pasangan">HADI AKBAR, S.KOM</h1>
         <p class="text-ortu">(Putra ke 3 Bapak Agus Dur dan ibu Icha)</p>
       </div>
-      <h5 class="text-undangan pb-2 pt-5 text-center">Countdown Hari Pernikahan :</h5>
-      <div class="d-flex justify-content-center">
+      <h5 class="text-undangan countdown-txt pb-2 pt-5 text-center">Countdown Hari Pernikahan :</h5>
+      <div class="d-flex justify-content-center countdown">
           <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-timer fw-bold fs-4 rounded-left"><span class="hari">5</span> Hari</button>
             <button type="button" class="btn btn-timer fw-bold fs-4"><span class="jam">3</span> Jam</button>
@@ -50,7 +53,7 @@
     <section class="section-invitation">
       <div class="container mt-5 mb-5">
         <div class="d-flex justify-content-center">
-          <div class="text-center col-8">
+          <div class="text-center col-8" data-aos="fade-down" data-aos-duration="1500">
             <h5 class="fw-bold fs-3 pb-3 pt-5">WEDDING INVITATION</h5>
             <p>
               Assalamu'alaikum Warohmatullahi Wabarokatuh....
@@ -61,12 +64,12 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-2 mb-3">
-          <div class="separator">
+          <div class="separator" data-aos="fade-down" data-aos-duration="1500">
             <i class="fa-regular fa-circle"></i>
           </div>
         </div>
         <div class="row mt-5 mb-5">
-          <div class="col-md-4 mt-5">
+          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">
             <h5 class="fw-bold fs-4 pb-3">Akad Nikah</h5>
             <p>
               <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022 <br>
@@ -75,10 +78,10 @@
               <i class="fa-regular fa-map"></i> &nbsp; Jl.Bintara 14 . Cempaka Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
             </p>
           </div>
-          <div class="col-md-4 mt-5">
+          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="700">
             <img src="assets/image/couple-1.png" class="img-fluid img-couple mx-auto d-block" alt="">
           </div>
-          <div class="col-md-4 mt-5">
+          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="900">
             <h5 class="fw-bold fs-4  pb-3">Resepsi</h5>
             <p>
               <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022 <br>
@@ -93,7 +96,7 @@
 
     <section class="section-remember">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-duration="1500">
           <div class="text-center my-5">
             <h5 class="fs-3">Ingat Tanggalnya</h5>
             <h1 class="fw-bold fs-1">Senin, 04 April 2022</h1>
@@ -245,11 +248,23 @@
     <!-- Countdown JS -->
     <script src="assets/js/countdown.js"></script>
 
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Javascript -->
     <script>
         $(window).on("load", function(){
             $(".loader-wrapper").fadeOut("slow");
         });
+
+        gsap.from('.text-tengah', { duration: 1.5, y:-100, opacity: 0 });
+        gsap.from('.countdown-txt', { duration: 1, y:-100, opacity: 0, delay: 1 });
+        gsap.from('.countdown', { duration: 1, y:-100, opacity: 0, delay: 1 });
+
+        AOS.init();
     </script>
   </body>
 </html>
