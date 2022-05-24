@@ -268,6 +268,24 @@ body{
         }
     }
 
+    .section-kado{
+        color: 181E41;
+        .nomor-rekening{
+            width: 30em;
+            background-color: #E5E1CF;
+            border-radius: 20px;
+
+            .pemilik-rekening{
+                font-weight: 500;
+            }
+            .btn-biru{
+                background-color: #181E41;
+                color: white;
+                font-weight: 600;
+            }
+        }
+    }
+
     .section-footer{
         margin-bottom: 100px;
     }

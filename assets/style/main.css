@@ -210,6 +210,22 @@ body {
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
   }
+  .section-kado {
+    color: 181E41;
+  }
+  .section-kado .nomor-rekening {
+    width: 30em;
+    background-color: #E5E1CF;
+    border-radius: 20px;
+  }
+  .section-kado .nomor-rekening .pemilik-rekening {
+    font-weight: 500;
+  }
+  .section-kado .nomor-rekening .btn-biru {
+    background-color: #181E41;
+    color: white;
+    font-weight: 600;
+  }
   .section-footer {
     margin-bottom: 100px;
   }
