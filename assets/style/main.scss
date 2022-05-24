@@ -48,6 +48,17 @@ body{
         }
     }
 
+    .media-button{
+        position: fixed;
+        right: 0;
+        top: 50%;
+        z-index: 1000;
+
+        img{
+            width: 50%;
+        }
+    }
+
     .section-open{
         background: url("../image/bg-header 2.png") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -155,6 +166,16 @@ body{
 
         .isi-nav{
             padding: 10px 30px;
+        }
+    }
+
+    .media-button{
+        position: fixed;
+        right: 1%;
+        top: 50%;
+
+        img{
+            width: 100%;
         }
     }
 
