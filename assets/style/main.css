@@ -1,7 +1,7 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  color: #181E41;
-  background-color: #F0EFEB;
+  font-family: "Poppins", sans-serif;
+  color: #181e41;
+  background-color: #f0efeb;
 }
 
 .separator {
@@ -17,11 +17,11 @@ body {
 
 .separator::before,
 .separator::after {
-  content: '';
+  content: "";
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border-bottom: 3px solid #181E41;
+  border-bottom: 3px solid #181e41;
 }
 
 .separator:not(:empty)::before {
@@ -45,7 +45,7 @@ body {
     border-radius: 15px;
     -webkit-box-shadow: 0 4px 8px 0 black;
             box-shadow: 0 4px 8px 0 black;
-    background-color: #F0EFEB;
+    background-color: #f0efeb;
   }
   .navbar-kecil .isi-nav {
     padding: 10px 30px;
@@ -68,7 +68,7 @@ body {
     padding-bottom: 150px;
   }
   .section-open .btn-timer {
-    background-color: #181E41;
+    background-color: #181e41;
     color: white;
   }
   .section-open .text-tengah .pasangan {
@@ -92,7 +92,7 @@ body {
     padding-bottom: 145px;
   }
   .section-header .btn-timer {
-    background-color: #181E41;
+    background-color: #181e41;
     color: white;
   }
   .section-header .text-tengah .pasangan {
@@ -112,7 +112,26 @@ body {
   }
   .section-remember {
     margin-top: 7em;
-    background-color: #E5E1CF;
+    background-color: #e5e1cf;
+  }
+  .section-kado {
+    color: 181e41;
+  }
+  .section-kado .nomor-rekening {
+    width: 30em;
+    background-color: #e5e1cf;
+    border-radius: 20px;
+  }
+  .section-kado .nomor-rekening hr {
+    margin: 0;
+  }
+  .section-kado .nomor-rekening .pemilik-rekening {
+    font-weight: 500;
+  }
+  .section-kado .nomor-rekening .btn-biru {
+    background-color: #181e41;
+    color: white;
+    font-weight: 600;
   }
   .section-footer {
     margin-bottom: 100px;
@@ -132,7 +151,7 @@ body {
     border-radius: 15px;
     -webkit-box-shadow: 0 4px 8px 0 black;
             box-shadow: 0 4px 8px 0 black;
-    background-color: #F0EFEB;
+    background-color: #f0efeb;
   }
   .navbar-kecil .isi-nav {
     padding: 10px 30px;
@@ -153,7 +172,7 @@ body {
     padding: 14em;
   }
   .section-open .btn-timer {
-    background-color: #181E41;
+    background-color: #181e41;
     color: white;
   }
   .section-open .text-tengah .pasangan {
@@ -177,7 +196,7 @@ body {
     padding: 12em;
   }
   .section-header .btn-timer {
-    background-color: #181E41;
+    background-color: #181e41;
     color: white;
   }
   .section-header .text-tengah .pasangan {
@@ -197,32 +216,36 @@ body {
   }
   .section-remember {
     margin-top: 7em;
-    background-color: #E5E1CF;
+    background-color: #e5e1cf;
   }
   .section-location .alamat {
     font-weight: 500;
   }
   .section-gallery .item {
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
   .section-gallery .item:hover {
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
   }
   .section-kado {
-    color: 181E41;
+    margin-top: 110px;
+    color: 181e41;
   }
   .section-kado .nomor-rekening {
     width: 30em;
-    background-color: #E5E1CF;
+    background-color: #e5e1cf;
     border-radius: 20px;
+  }
+  .section-kado .nomor-rekening hr {
+    margin: 0;
   }
   .section-kado .nomor-rekening .pemilik-rekening {
     font-weight: 500;
   }
   .section-kado .nomor-rekening .btn-biru {
-    background-color: #181E41;
+    background-color: #181e41;
     color: white;
     font-weight: 600;
   }

@@ -1,63 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="/assets/style/main.css">
-    <link rel="stylesheet" href="/assets/style/loader.css">
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <link rel="stylesheet" href="/assets/style/loader.css" />
 
     <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/6988970e54.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6988970e54.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Design 01 - CSS Production</title>
   </head>
   <body>
-    <div class="media-button">
+    <!-- <div class="media-button">
       <img src="/assets/image/btn pause.png" id="icon" alt="">
       <audio id="mySong" loop="loop">
         <source src="/assets/music/Arvian Dwi - MELEPAS LAJANG.mp3" type="audio/mp3">
       </audio>
-    </div>
+    </div> -->
 
     <div class="d-flex justify-content-center">
       <nav class="navbar-kecil" data-aos="fade-in">
         <div class="row isi-nav">
           <div class="col-3">
             <a href="#couple">
-              <img src="assets/image/couple.png" class="img-fluid mx-auto d-block" alt="">
+              <img
+                src="assets/image/couple.png"
+                class="img-fluid mx-auto d-block"
+                alt=""
+              />
             </a>
           </div>
           <div class="col-3">
             <a href="#undangan">
-              <img src="assets/image/undangan.png" class="img-fluid mx-auto d-block" alt="">
+              <img
+                src="assets/image/undangan.png"
+                class="img-fluid mx-auto d-block"
+                alt=""
+              />
             </a>
           </div>
           <div class="col-3">
             <a href="#foto">
-              <img src="assets/image/foto.png" class="img-fluid mx-auto d-block" alt="">
+              <img
+                src="assets/image/foto.png"
+                class="img-fluid mx-auto d-block"
+                alt=""
+              />
             </a>
           </div>
           <div class="col-3">
             <a href="#lokasi">
-              <img src="assets/image/Lokasi.png" class="img-fluid mx-auto d-block" alt="">
+              <img
+                src="assets/image/Lokasi.png"
+                class="img-fluid mx-auto d-block"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -73,27 +103,46 @@
         <h1 class="pasangan">HADI AKBAR, S.KOM</h1>
         <p class="text-ortu">(Putra ke 3 Bapak Agus Dur dan ibu Icha)</p>
       </div>
-      <h5 class="text-undangan countdown-txt pb-2 pt-5 text-center">Countdown Hari Pernikahan :</h5>
+      <h5 class="text-undangan countdown-txt pb-2 pt-5 text-center">
+        Countdown Hari Pernikahan :
+      </h5>
       <div class="d-flex justify-content-center countdown">
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-timer fw-bold fs-4 rounded-left"><span class="hari">5</span> Hari</button>
-            <button type="button" class="btn btn-timer fw-bold fs-4"><span class="jam">3</span> Jam</button>
-            <button type="button" class="btn btn-timer fw-bold fs-4"><span class="menit">13</span> Menit</button>
-            <button type="button" class="btn btn-timer fw-bold fs-4 rounded-right"><span class="detik">24</span> Detik</button>
-          </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-timer fw-bold fs-4 rounded-left">
+            <span class="hari">5</span> Hari
+          </button>
+          <button type="button" class="btn btn-timer fw-bold fs-4">
+            <span class="jam">3</span> Jam
+          </button>
+          <button type="button" class="btn btn-timer fw-bold fs-4">
+            <span class="menit">13</span> Menit
+          </button>
+          <button
+            type="button"
+            class="btn btn-timer fw-bold fs-4 rounded-right"
+          >
+            <span class="detik">24</span> Detik
+          </button>
+        </div>
       </div>
     </section>
 
     <section class="section-invitation" id="undangan">
       <div class="container mt-5 mb-5">
         <div class="d-flex justify-content-center">
-          <div class="text-center col-8" data-aos="fade-down" data-aos-duration="1500">
+          <div
+            class="text-center col-8"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <h5 class="fw-bold fs-3 pb-3 pt-5">WEDDING INVITATION</h5>
+            <p>Assalamu'alaikum Warohmatullahi Wabarokatuh....</p>
             <p>
-              Assalamu'alaikum Warohmatullahi Wabarokatuh....
-            </p>
-            <p>
-              "Tuhan telah menciptakan makhluk-Nya berpasang-pasangan. Perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di antara putra-putri kami." Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan resepsi pernikahan putra-putri kami, yang Insya Allah akan dilaksanakan pada:
+              "Tuhan telah menciptakan makhluk-Nya berpasang-pasangan.
+              Perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di
+              antara putra-putri kami." Dengan memohon Ridho serta Rahmat Allah
+              SWT, kami bermaksud menyelenggarakan resepsi pernikahan
+              putra-putri kami, yang Insya Allah akan dilaksanakan pada:
             </p>
           </div>
         </div>
@@ -103,25 +152,52 @@
           </div>
         </div>
         <div class="row mt-5 mb-5">
-          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">
+          <div
+            class="col-md-4 mt-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
             <h5 class="fw-bold fs-4 pb-3">Akad Nikah</h5>
             <p>
-              <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022 <br>
-              <i class="fa-regular fa-clock"></i> &nbsp; Pukul 09.00 WIB s.d 10.00 WIB <br>
-              <i class="fa-regular fa-building"></i> &nbsp;  Gedung olahraga mandala jaya <br>
-              <i class="fa-regular fa-map"></i> &nbsp; Jl.Bintara 14 . Cempaka Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
+              <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022
+              <br />
+              <i class="fa-regular fa-clock"></i> &nbsp; Pukul 09.00 WIB s.d
+              10.00 WIB <br />
+              <i class="fa-regular fa-building"></i> &nbsp; Gedung olahraga
+              mandala jaya <br />
+              <i class="fa-regular fa-map"></i> &nbsp; Jl.Bintara 14 . Cempaka
+              Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
             </p>
           </div>
-          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="700">
-            <img src="assets/image/couple-1.png" class="img-fluid img-couple mx-auto d-block" alt="">
+          <div
+            class="col-md-4 mt-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            <img
+              src="assets/image/couple-1.png"
+              class="img-fluid img-couple mx-auto d-block"
+              alt=""
+            />
           </div>
-          <div class="col-md-4 mt-5" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="900">
-            <h5 class="fw-bold fs-4  pb-3">Resepsi</h5>
+          <div
+            class="col-md-4 mt-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            <h5 class="fw-bold fs-4 pb-3">Resepsi</h5>
             <p>
-              <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022 <br>
-              <i class="fa-regular fa-clock"></i> &nbsp; Pukul 10.00 WIB s.d Selesai <br>
-              <i class="fa-regular fa-building"></i> &nbsp;  Gedung olahraga mandala jaya <br>
-              <i class="fa-regular fa-map"></i> &nbsp; Jl.Bintara 14 . Cempaka Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
+              <i class="fa-regular fa-calendar"></i> &nbsp; Senin, 04 April 2022
+              <br />
+              <i class="fa-regular fa-clock"></i> &nbsp; Pukul 10.00 WIB s.d
+              Selesai <br />
+              <i class="fa-regular fa-building"></i> &nbsp; Gedung olahraga
+              mandala jaya <br />
+              <i class="fa-regular fa-map"></i> &nbsp; Jl.Bintara 14 . Cempaka
+              Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
             </p>
           </div>
         </div>
@@ -142,71 +218,215 @@
     <section class="section-gallery" id="foto">
       <div class="container">
         <div class="row mt-5 mb-5">
-          <h5 class="fw-bold fs-2 mt-5" data-aos="fade-right" data-aos-duration="1000">Foto Kebersamaan</h5>
+          <h5
+            class="fw-bold fs-2 mt-5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Foto Kebersamaan
+          </h5>
           <p class="mt-2 mb-5" data-aos="fade-right" data-aos-duration="1000">
-            Foto Foto kebersamaan dari pasangan yang berbahagia <br>
+            Foto Foto kebersamaan dari pasangan yang berbahagia <br />
             hadi akbar dengan siti aisyah yang sedang berbahagia
           </p>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
-            <a href="assets/image/img1.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img1.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img1.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img1.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-            <a href="assets/image/img2.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img2.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img2.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img2.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
-            <a href="assets/image/img3.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img3.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img3.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img3.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
-            <a href="assets/image/img4.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img4.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img4.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img4.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
-            <a href="assets/image/img5.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img5.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img5.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img5.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
-          <div class="item col-sm-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
-            <a href="assets/image/img6.png" class="fancybox" data-fancybox="gallery">
-              <img src="assets/image/img6.png" width="100%" height="100%" alt="" srcset="">
+          <div
+            class="item col-sm-6 col-md-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="700"
+            data-aos-duration="1000"
+          >
+            <a
+              href="assets/image/img6.png"
+              class="fancybox"
+              data-fancybox="gallery"
+            >
+              <img
+                src="assets/image/img6.png"
+                width="100%"
+                height="100%"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
           <!-- Desktop Mode -->
           <div class="row mt-5 d-none d-md-block">
             <div class="col-md-12 d-flex justify-content-center">
-              <div class="col-md-4 mt-4 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+              <div
+                class="col-md-4 mt-4 text-center"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              >
                 <span><i class="fa-solid fa-star fa-3x"></i></span>
-                <h5 class="pt-3"><b>15 Tempat</b> <br> Telah didatangi</h5>
+                <h5 class="pt-3">
+                  <b>15 Tempat</b> <br />
+                  Telah didatangi
+                </h5>
               </div>
-              <div class="col-md-4 mt-4 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+              <div
+                class="col-md-4 mt-4 text-center"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              >
                 <span><i class="fa-solid fa-boxes-stacked fa-3x"></i></span>
-                <h5 class="pt-3"><b>100+ Bulan</b> <br> Penuh Kasih</h5>
+                <h5 class="pt-3">
+                  <b>100+ Bulan</b> <br />
+                  Penuh Kasih
+                </h5>
               </div>
-              <div class="col-md-4 mt-4 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+              <div
+                class="col-md-4 mt-4 text-center"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              >
                 <span><i class="fa-solid fa-heart fa-3x"></i></span>
-                <h5 class="pt-3"><b>300+ Moment</b> <br> Bahagia yang diambil</h5>
+                <h5 class="pt-3">
+                  <b>300+ Moment</b> <br />
+                  Bahagia yang diambil
+                </h5>
               </div>
             </div>
           </div>
           <!-- Mobile Mode -->
           <div class="row mt-5 d-sm-block d-md-none text-center">
-            <div class="col-md-4 col-sm-6 mt-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+            <div
+              class="col-md-4 col-sm-6 mt-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <span><i class="fa-solid fa-star fa-3x"></i></span>
-              <h5 class="pt-3"><b>15 Tempat</b> <br> Telah didatangi</h5>
+              <h5 class="pt-3">
+                <b>15 Tempat</b> <br />
+                Telah didatangi
+              </h5>
             </div>
-            <div class="col-md-4 col-sm-6 mt-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+            <div
+              class="col-md-4 col-sm-6 mt-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <span><i class="fa-solid fa-boxes-stacked fa-3x"></i></span>
-              <h5 class="pt-3"><b>100+ Bulan</b> <br> Penuh Kasih</h5>
+              <h5 class="pt-3">
+                <b>100+ Bulan</b> <br />
+                Penuh Kasih
+              </h5>
             </div>
-            <div class="col-md-4 col-sm-6 mt-5 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+            <div
+              class="col-md-4 col-sm-6 mt-5 mb-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <span><i class="fa-solid fa-heart fa-3x"></i></span>
-              <h5 class="pt-3"><b>300+ Moment</b> <br> Bahagia yang diambil</h5>
+              <h5 class="pt-3">
+                <b>300+ Moment</b> <br />
+                Bahagia yang diambil
+              </h5>
             </div>
           </div>
         </div>
@@ -214,101 +434,206 @@
     </section>
 
     <section class="section-kado">
-      <div class="container">
-        <div class="text-center">
-          <h5 class="fw-bold fs-2">Kado Digital</h5>
-          <p class="fw-normal fs-5 mt-4">Kami Menerima Kado Pernikahan dalam bentuk digital di bawah ini</p>
-          <img src="assets/image/bni.png" class="img-fluid my-5">
-          <div class="d-flex justify-content-center mb-3">
-            <div class="nomor-rekening">
-              <div class="container">
-                <div class="hstack gap-3 d-flex justify-content-center">
-                  <label class="fw-bold fs-3">8450212355</label>
-                  <button class="btn btn-biru btn-sm"><i class="fa-solid fa-copy"></i> Copy No Rek</button>
-                </div>
-                <hr>
-                <label class="pemilik-rekening fs-5">An Hadi Akbar</label>
+      <div class="container text-center">
+        <h5
+          class="fw-bold fs-2"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          Kado Digital
+        </h5>
+        <p
+          class="fw-normal fs-5 mt-4"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          Kami Menerima Kado Pernikahan dalam bentuk digital di bawah ini
+        </p>
+        <img
+          src="assets/image/bni.png"
+          class="img-fluid my-5"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        />
+        <div
+          class="d-flex justify-content-center mb-3"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <div class="nomor-rekening">
+            <div class="container">
+              <div class="hstack gap-3 d-flex justify-content-center">
+                <label class="fw-bold fs-3 mt-2" id="noRek">1616323223</label>
+                <!-- <button class="btn btn-biru btn-sm mt-2" id="btnCopy">
+                  <i class="fa-solid fa-copy"></i>&nbsp; Copy No Rek
+                </button> -->
               </div>
+              <hr />
+              <label class="pemilik-rekening fs-5 mb-2">An Hadi Akbar</label>
             </div>
           </div>
-          <h5 class="fw-bold mt-5">Terima Kasih Atas pemberianya berapapun jumlahnya berharga untuk kami</h5>
         </div>
+        <h5
+          class="fw-bold mt-5"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          Terima Kasih Atas pemberianya berapapun jumlahnya berharga untuk kami
+        </h5>
       </div>
     </section>
 
     <section class="section-protokol">
       <div class="container">
         <div class="row mt-5">
-          <h5 class="fw-bold fs-2 mt-5 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">Protokol Kesehatan</h5>
-          <p class="text-center mt-3 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
-            Jangan ragu untuk datang. kami sudah berkoordinasi dengan semua pihak terkait
-            <br>
-            pencegahan penularan COVID-19. Acara kami akan mengikuti segala prosedur protokol
-            <br>
+          <h5
+            class="fw-bold fs-2 mt-5 text-center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
+            Protokol Kesehatan
+          </h5>
+          <p
+            class="text-center mt-3 mb-5"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
+            Jangan ragu untuk datang. kami sudah berkoordinasi dengan semua
+            pihak terkait
+            <br />
+            pencegahan penularan COVID-19. Acara kami akan mengikuti segala
+            prosedur protokol
+            <br />
             kesehatan untuk mencegah penularan COVID-19.
           </p>
-          <div class="row mt-5 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+          <div
+            class="row mt-5 mb-5"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
             <div class="col-md-4">
-              <img src="assets/image/Protection Mask.png" alt="" class="img-fluid mx-auto d-block">
+              <img
+                src="assets/image/Protection Mask.png"
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
               <p class="text-center fw-bolder mt-5">
-                Tamu undangan <br> harap menggunakan <br> masker
+                Tamu undangan <br />
+                harap menggunakan <br />
+                masker
               </p>
             </div>
             <div class="col-md-4">
-              <img src="assets/image/Wash Your Hands.png" alt="" class="img-fluid mx-auto d-block">
+              <img
+                src="assets/image/Wash Your Hands.png"
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
               <p class="text-center fw-bolder mt-5">
-                Cuci tangan <br> menggunakan air dan <br> sanitizer
+                Cuci tangan <br />
+                menggunakan air dan <br />
+                sanitizer
               </p>
             </div>
             <div class="col-md-4">
-              <img src="assets/image/distance.png" alt="" class="img-fluid mx-auto d-block">
+              <img
+                src="assets/image/distance.png"
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
               <p class="text-center fw-bolder mt-5">
-                Jaga jarak antar orang <br> sekitar 2 meter atau <br> lebih
+                Jaga jarak antar orang <br />
+                sekitar 2 meter atau <br />
+                lebih
               </p>
             </div>
           </div>
-          <h5 class="fw-bold fs-3 mt-5 mb-5 text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Jaga Protokol kesehatan untuk mencegah penularan <br> COVID-19 </h5>
+          <h5
+            class="fw-bold fs-3 mt-5 mb-5 text-center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            Jaga Protokol kesehatan untuk mencegah penularan <br />
+            COVID-19
+          </h5>
         </div>
       </div>
     </section>
 
     <section class="section-location" id="lokasi">
       <div class="container">
-        <div class="row mt-5 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+        <div
+          class="row mt-5 mb-5"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
           <h1 class="fw-bold text-center mt-5 mb-5">Peta Lokasi</h1>
-          <h5 class="fs-3 alamat text-center">
-            Gedung olahraga mandala jaya
-          </h5>
+          <h5 class="fs-3 alamat text-center">Gedung olahraga mandala jaya</h5>
           <p class="text-center fs-4">
-            jl.Bintara 14 . Cempaka Putih, Desa baginda, kec.Situraja, Kabupaten Sumedang, Jawab Barat
+            jl.Bintara 14 . Cempaka Putih, Desa baginda, kec.Situraja, Kabupaten
+            Sumedang, Jawab Barat
           </p>
-          <iframe class="mt-5 mb-5" style="filter: invert(90%)" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.4972266880081!2d108.01815426212613!3d-6.84021265603998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68d3660f484877%3A0xc049bba04a3e32c7!2sKantor%20Desa%20Situraja!5e0!3m2!1sen!2sid!4v1648120349614!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe
+            class="mt-5 mb-5"
+            style="filter: invert(90%)"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.4972266880081!2d108.01815426212613!3d-6.84021265603998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68d3660f484877%3A0xc049bba04a3e32c7!2sKantor%20Desa%20Situraja!5e0!3m2!1sen!2sid!4v1648120349614!5m2!1sen!2sid"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </section>
 
     <section class="section-restu">
       <div class="container">
-        <div class="row mt-5 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+        <div
+          class="row mt-5 mb-5"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
           <h5 class="fw-bold fs-3 mt-5 text-center">MOHON DOA RESTU</h5>
           <p class="text-center mb-5">
-            Besar harapan kehadiran teman-teman dalam acara pernikahan saya. <br> Atas perhatiannya saya sampaikan terima kasih.
+            Besar harapan kehadiran teman-teman dalam acara pernikahan saya.
+            <br />
+            Atas perhatiannya saya sampaikan terima kasih.
           </p>
         </div>
       </div>
     </section>
 
     <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
+      <span class="loader"><span class="loader-inner"></span></span>
     </div>
 
-    <hr>
+    <hr />
 
     <section class="section-footer">
       <div class="container">
         <div class="row mt-5 mb-5">
           <div class="text-center">
-            <h5 class="fw-bold">Created with <i class="fa-solid fa-heart" style="color: red;"></i> by CSS Productions</h5>
+            <h5 class="fw-bold">
+              Created with
+              <i class="fa-solid fa-heart" style="color: red"></i> by
+            </h5>
+            <img
+              src="assets/image/logo fkp.png"
+              alt=""
+              class="img-fluid w-25 d-inline"
+            />
           </div>
         </div>
       </div>
@@ -318,7 +643,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Countdown JS -->
     <script src="assets/js/countdown.js"></script>
@@ -329,36 +658,54 @@
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Javascript -->
+    <!-- Javascript for Animation -->
     <script>
-        $(window).on("load", function(){
-            $(".loader-wrapper").fadeOut("slow");
-        });
+      $(window).on("load", function () {
+        $(".loader-wrapper").fadeOut("slow");
+      });
 
-        gsap.from('.text-tengah', { duration: 1.5, y:-100, opacity: 0 });
-        gsap.from('.countdown-txt', { duration: 1, y:-100, opacity: 0, delay: 1 });
-        gsap.from('.countdown', { duration: 1, y:-100, opacity: 0, delay: 1 });
-        
-        AOS.init();
+      gsap.from(".text-tengah", { duration: 1.5, y: -100, opacity: 0 });
+      gsap.from(".countdown-txt", {
+        duration: 1,
+        y: -100,
+        opacity: 0,
+        delay: 1,
+      });
+      gsap.from(".countdown", { duration: 1, y: -100, opacity: 0, delay: 1 });
+
+      AOS.init();
     </script>
 
+    <!-- Javascript for audio -->
     <script>
       var mySong = document.getElementById("mySong");
-      var icon   = document.getElementById("icon");
+      var icon = document.getElementById("icon");
 
-      window.onload = function(){
+      window.onload = function () {
         document.getElementById("mySong").play();
-      }
+      };
 
-      icon.onclick = function(){
-        if(mySong.paused){
+      icon.onclick = function () {
+        if (mySong.paused) {
           mySong.play();
           icon.src = "/assets/image/btn pause.png";
-        }else{
+        } else {
           mySong.pause();
           icon.src = "/assets/image/btn play.png";
         }
-      }
+      };
+    </script>
+
+    <!-- Javascript for Copy Button -->
+    <script>
+      const noRek = document.getElementById("noRek");
+      const btnCopy = document.getElementById("btnCopy");
+
+      btnCopy.click = function () {
+        noRek.copy();
+
+        document.execCommand("Copy");
+      };
     </script>
   </body>
 </html>
